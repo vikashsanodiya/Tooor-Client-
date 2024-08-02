@@ -24,7 +24,7 @@
 #   navy-color: #2b2945;
 #   mustard-color: #ff8900;
 #   yellow-color: #fdb913;
-#   light-green-color: #b2f3de;
+#   light-green-color: #f3cbb2;
 
 */
 
@@ -79,14 +79,14 @@ span {
 }
 
 :root {
-    --primary--color: #1ec28b;
+    --primary--color: #c2521e;
     --black--color: #000000;
     --secondary--color: #ffffff;
     --text-color: #73848c;
     --navy-color: #2b2945;
     --mustard-color: #ff8900;
     --yellow-color: #fdb913;
-    --light-green-color: #b2f3de;
+    --light-green-color: #f3cbb2;
 }
 
 /* TOPBAR SECTION */
@@ -123,7 +123,7 @@ span {
 /* BG OUTER WRAPPER */
 
 .bg-outer-wrapper {
-    background: linear-gradient(to bottom, #b2f3de 0%, #ffffff 100%);
+    background: linear-gradient(to bottom, #f3cbb2 0%, #ffffff 100%);
     /* height: 2000px; */
 }
 
@@ -151,7 +151,7 @@ span {
     z-index: 1;
     padding: 15px 0;
     background-color: var(--secondary--color);
-    box-shadow: 0px 20px 50px rgb(30 194 139 / 35%);
+    box-shadow: 0px 20px 50px rgba(194, 77, 30, 0.35);
 }
 
 .header-con .navbar {
@@ -492,7 +492,7 @@ span {
 }
 
 .banner-con .owl-dots button span {
-    background-color: #2dca73;
+    background-color: #ca7b2d;
     opacity: 25%;
     width: 10px;
     height: 10px;
@@ -695,14 +695,14 @@ span {
 
 .what-we-serve-con .server-box {
     /* width: 290px; */
-    background: linear-gradient(to bottom, rgb(178, 243, 222, 20%) 0%, #ffffff 100%);
+    background: linear-gradient(to bottom, rgba(243, 197, 178, 0.2) 0%, #ffffff 100%);
     padding: 48px 30px;
     border-radius: 10px;
     /* opacity: 20%; */
 }
 
 .what-we-serve-con .server-box:hover {
-    background: linear-gradient(to bottom, rgb(178, 243, 222, 100%) 0%, #ffffff 100%);
+    background: linear-gradient(to bottom, rgb(178, 243, 222, 20% ) 0%, #ffffff 100%);
 }
 
 .what-we-serve-con .server-box:hover h4 {
@@ -771,7 +771,7 @@ span {
 }
 
 .color-overlay {
-    background: rgba(22, 48, 53, 0.9);
+    background: rgba(53, 22, 22, 0.9);
 }
 
 .heading-content h4 {
@@ -811,7 +811,7 @@ span {
 }
 
 .travel-tour-con .tab-content .package-box:hover {
-    background: linear-gradient(to bottom, #b2f3de 0%, #ffffff 100%);
+    background: linear-gradient(to bottom, #f3cbb2 0%, #ffffff 100%);
 }
 
 .travel-tour-con .tab-content .package-box:hover .grey-btn a {
@@ -886,7 +886,7 @@ span {
 }
 
 .travel-tour-con .tab-content .package-box .spans-wrapper {
-    border-bottom: 2px solid #e9e9ec;
+    border-bottom: 2px solid #ece9e9;
 }
 
 .travel-tour-con .pkg-btn-con {
@@ -899,7 +899,7 @@ span {
     height: 60px;
     border-radius: 100%;
     line-height: 60px;
-    box-shadow: 0px 10px 50px rgb(115 132 140 / 35%);
+    box-shadow: 0px 10px 50px rgba(140, 115, 115, 0.35);
     font-size: 20px;
 }
 
@@ -973,7 +973,7 @@ span {
 /* ABOUT TRAVEL SECTION */
 
 .about-travel-con {
-    background: linear-gradient(to bottom, #b2f3de 0%, #ffffff 100%);
+    background: linear-gradient(to bottom, #f3cbb2 0%, #ffffff 100%);
 }
 
 .about-travel-con .vector5 {
@@ -997,7 +997,7 @@ span {
 .about-travel-con .about-travel-img-con img {
     border: 10px solid var(--secondary--color);
     border-radius: 10px;
-    box-shadow: 0px 10px 50px rgb(30 194 139 / 30%);
+    box-shadow: 0px 10px 50px rgba(194, 30, 30, 0.3);
 }
 
 .about-travel-con .about-travel-img-con .about-img2 img {
@@ -1095,7 +1095,7 @@ span {
 /* TOP DESTINATIONS SECTION */
 
 .top-destinations-con {
-    background: linear-gradient(to bottom, #b2f3de 0%, #ffffff 100%);
+    background: linear-gradient(to bottom, #f3cbb2 0%, #ffffff 100%);
 }
 
 .heading-title h4 {
@@ -1217,7 +1217,7 @@ span {
     border-radius: 100%;
     line-height: 60px;
     /* margin-right: 29px; */
-    box-shadow: 0px 10px 50px rgb(115 132 140 / 35%);
+    box-shadow: 0px 10px 50px rgba(140, 115, 115, 0.35);
     font-size: 20px;
 }
 
@@ -1225,7 +1225,7 @@ span {
     background-color: var(--primary--color);
     color: var(--secondary--color);
     transition: ease-in-out 0.6s;
-    box-shadow: 0px 10px 50px rgb(30 194 139 / 35%);
+    box-shadow: 0px 10px 50px rgb(194, 77, 30, 0.35);
 }
 
 .top-destinations-con .owl-nav span:focus-visible,
@@ -1249,7 +1249,7 @@ span {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(to top, #2b2945 6%, #ffffff 51%);
+    background-image: linear-gradient(to top, #452929 6%, #ffffff 51%);
     z-index: 1;
     mix-blend-mode: multiply;
     border-radius: 10px 10px 0 0;
@@ -1278,7 +1278,7 @@ span {
 }
 
 .review-testimonial-con .review-box:hover {
-    background: linear-gradient(to bottom, #b2f3de 0%, #ffffff 100%);
+    background: linear-gradient(to bottom, #f3cbb2 0%, #ffffff 100%);
 }
 
 .review-testimonial-con .review-box:hover img {
@@ -1289,7 +1289,7 @@ span {
     width: auto;
     margin-bottom: 22px;
     border-radius: 100%;
-    box-shadow: 0 0 50px rgb(30 194 139 / 30%);
+    box-shadow: 0 0 50px rgba(194, 30, 30, 0.3);
     border: 3px solid var(--secondary--color);
     transition: all 0.3s ease-in-out;
 }
@@ -1338,7 +1338,7 @@ span {
     height: 60px;
     border-radius: 100%;
     line-height: 60px;
-    box-shadow: 0px 10px 50px rgb(115 132 140 / 35%);
+    box-shadow: 0px 10px 50px rgba(140, 115, 115, 0.35);
     font-size: 20px;
 }
 
@@ -1375,7 +1375,7 @@ span {
 /* NEWS ARTICLES SECTION */
 
 .news-articles-con {
-    background: linear-gradient(to bottom, #b2f3de 0%, #ffffff 100%);
+    background: linear-gradient(to bottom, #f3cbb2 0%, #ffffff 100%);
 }
 
 .news-articles-con .vector4 {
@@ -1437,7 +1437,7 @@ span {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(to top, #2b2945 6%, #ffffff 51%);
+    background-image: linear-gradient(to top, #452929 6%, #ffffff 51%);
     z-index: 1;
     mix-blend-mode: multiply;
     border-radius: 10px;
@@ -1453,12 +1453,12 @@ span {
 
 .footer-con {
     padding-top: 80px;
-    background: linear-gradient(to bottom, #b2f3de 0%, #ffffff 100%);
+    background: linear-gradient(to bottom, #f3cbb2 0%, #ffffff 100%);
 }
 
 .partner-con {
     background-color: var(--secondary--color);
-    box-shadow: 0 10px 50px rgb(30 194 139 / 30%);
+    box-shadow: 0 10px 50px rgba(194, 30, 30, 0.3);
     border-radius: 10px;
     padding: 50px 58px;
     margin-bottom: 76px;
@@ -1576,7 +1576,7 @@ span {
 
 .footer-con .middle-portion {
     padding-bottom: 74px;
-    border-bottom: 1px solid #dfe0e6;
+    border-bottom: 1px solid #e6dfdf;
 }
 
 .footer-con .middle-portion ul li a:hover {
@@ -1604,7 +1604,7 @@ span {
 }
 
 .footer-con .payment-icon img {
-    box-shadow: 0 10px 10px rgb(30 194 139 / 10%);
+    box-shadow: 0 10px 10px rgba(194, 30, 30, 0.1);
 }
 
 .banner-con .owl-carousel {
@@ -1628,7 +1628,7 @@ span {
 /* SUB BANNER SECTION  */
 
 .sub-banner-outer-wrapper {
-    background: linear-gradient(to bottom, #b2f3de 0%, #c6f6e7 100%);
+    background: linear-gradient(to bottom, #f3cbb2 0%, #c6f6e7 100%);
 }
 
 /* Breadcrumb */
@@ -1678,7 +1678,7 @@ span {
 /* EXPLORING ACTIVITES SECTION */
 
 .exploring-activites-con {
-    background: linear-gradient(to bottom, #f4fdfa 0%, #ffffff 100%);
+    background: linear-gradient(to bottom, #fdf4f4 0%, #ffffff 100%);
 }
 
 .exploring-activites-con .vector9 {
@@ -1688,7 +1688,7 @@ span {
 
 .video-inner-wrap {
     height: 550px;
-    /* box-shadow: 0px 20px 50px rgb(30 194 139 / 35%); */
+    /* box-shadow: 0px 20px 50px rgb(194, 77, 30, 0.35); */
 }
 
 .exploring-activites-con .video-inner-wrap::before {
@@ -1704,7 +1704,7 @@ span {
     background-repeat: no-repeat;
     border: 10px solid #fff;
     border-radius: 20px;
-    box-shadow: 0px 10px 50px rgb(43 41 69 / 30%);
+    box-shadow: 0px 10px 50px rgba(69, 41, 41, 0.3);
 }
 
 .exploring-activites-con .centered {
@@ -1724,7 +1724,7 @@ span {
 .what-we-serve-con.meet-our-team-con .server-box:hover img {
     border: 5px solid #fff;
     border-radius: 100%;
-    box-shadow: 0px 10px 50px rgb(43 41 69 / 30%);
+    box-shadow: 0px 10px 50px rgba(69, 41, 41, 0.3);
 }
 
 .what-we-serve-con.meet-our-team-con .server-box {
@@ -1755,7 +1755,7 @@ span {
 /* PLAN YOUR TRIP SECTION */
 
 .plan-trip-con {
-    background: linear-gradient(to bottom, #b2f3de -90%, #ffffff 100%);
+    background: linear-gradient(to bottom, #f3cbb2 -90%, #ffffff 100%);
 }
 
 .plan-trip-con .heading-content h2 {
@@ -1931,7 +1931,7 @@ span {
 /* talk with our team section */
 
 .talk-width-our-team-con {
-    background: linear-gradient(to bottom, #f4fdfa 0%, #ffffff 100%);
+    background: linear-gradient(to bottom, #fdf4f4 0%, #ffffff 100%);
 }
 
 .talk-width-our-team-con .vector11 {
@@ -1968,7 +1968,7 @@ span {
     overflow: visible;
     outline: none;
     transition: all 0.3s ease-in-out;
-    box-shadow: 0 2px 2px rgb(35 31 32 / 10%);
+    box-shadow: 0 2px 2px rgba(35, 31, 31, 0.1);
 }
 
 /* .talk-width-our-team-con .register-box select {
@@ -1996,7 +1996,7 @@ span {
     position: relative;
     border-radius: 5px;
     background: var(--primary--color);
-    box-shadow: 0 20px 50px 0 rgb(30 194 139 / 35%);
+    box-shadow: 0 20px 50px 0 rgba(194, 30, 30, 0.35);
     transition: all 0.3s ease-in-out;
     outline: none;
     border-style: none;
@@ -2017,7 +2017,7 @@ span {
 
 .talk-width-our-team-con .register-box input:focus,
 .talk-width-our-team-con .register-box textarea:focus {
-    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(30 194 139 / 100%);
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(194, 30, 30);
     border-color: var(--primary--color);
 }
 
@@ -2046,7 +2046,7 @@ span {
     min-height: 100vh;
     text-align: center;
     position: relative;
-    background: linear-gradient(to bottom, #b2f3de 0%, #dcf9f0 100%);
+    background: linear-gradient(to bottom, #f3cbb2 0%, #dcf9f0 100%);
 }
 
 .comingsoon_outer .coming-soon-con {
@@ -2081,7 +2081,7 @@ span {
     min-height: 100px;
     min-width: 350px;
     line-height: 100px;
-    box-shadow: 0 0 50px rgb(30 194 139 / 20%);
+    box-shadow: 0 0 50px rgba(194, 30, 30, 0.2);
 }
 
 .coming-soon-con .coming-banner-content h4 {
@@ -2112,7 +2112,7 @@ span {
     font-size: 16px;
     color: var(--text-color);
     padding: 15px 19px;
-    box-shadow: 0 2px 2px rgb(35 31 32 / 10%);
+    box-shadow: 0 2px 2px rgba(35, 31, 31, 0.1);
     border-radius: 5px;
     font-weight: 500;
 }
@@ -2151,7 +2151,7 @@ span {
 }
 
 .coming-soon-con .coming-banner-content .form-group input:focus {
-    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(30 194 139 / 100%);
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(194, 30, 30);
     border: 1px solid var(--primary--color);
 }
 
@@ -2182,7 +2182,7 @@ span {
 
 .comingsoon_outer .coming-soon-copyright {
     padding: 24px 0px;
-    border-top: 1px solid #dfe0e6;
+    border-top: 1px solid #e6dfdf;
     margin-top: auto;
 }
 

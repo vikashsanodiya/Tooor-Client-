@@ -20,7 +20,7 @@
     text-decoration: none;
     color: var(--secondary--color);
     border-radius: 100px;
-    box-shadow: 0 20px 50px rgb(30 194 139 / 35%);
+    box-shadow: 0 20px 50px rgb(194, 77, 30, 0.35);
 }
 
 .green-btn a:hover {

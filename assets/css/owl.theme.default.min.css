@@ -26,7 +26,7 @@
 }
 
 .owl-theme .owl-nav [class*=owl-]:hover {
-    background: #869791;
+    background: #978686;
     color: #FFF;
     text-decoration: none
 }
@@ -58,5 +58,5 @@
 
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-    background: #869791
+    background: #978686
 }

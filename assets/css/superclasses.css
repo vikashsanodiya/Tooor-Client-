@@ -42,7 +42,7 @@
     font-weight: 600;
     text-decoration: none;
     color: var(--secondary--color);
-    box-shadow: 0px 10px 50px rgb(115 132 140 / 35%);
+    box-shadow: 0px 10px 50px rgba(140, 115, 115, 0.35);
 }
 
 .grey-btn a:hover {

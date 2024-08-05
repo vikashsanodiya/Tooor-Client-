@@ -24,7 +24,7 @@
 #   navy-color: #2b2945;
 #   mustard-color: #ff8900;
 #   yellow-color: #fdb913;
-#   light-green-color: #f3cbb2;
+#   light-green-color: #f4f3f2;
 
 */
 
@@ -83,10 +83,10 @@ span {
     --black--color: #000000;
     --secondary--color: #ffffff;
     --text-color: #73848c;
-    --navy-color: #2b2945;
+    --navy-color: #452929;
     --mustard-color: #ff8900;
     --yellow-color: #fdb913;
-    --light-green-color: #f3cbb2;
+    --light-green-color: #f4f3f2;
 }
 
 /* TOPBAR SECTION */
@@ -123,7 +123,7 @@ span {
 /* BG OUTER WRAPPER */
 
 .bg-outer-wrapper {
-    background: linear-gradient(to bottom, #f3cbb2 0%, #ffffff 100%);
+    background: linear-gradient(to bottom, #f4f3f2 0%, #ffffff 100%);
     /* height: 2000px; */
 }
 
@@ -811,7 +811,7 @@ span {
 }
 
 .travel-tour-con .tab-content .package-box:hover {
-    background: linear-gradient(to bottom, #f3cbb2 0%, #ffffff 100%);
+    background: linear-gradient(to bottom, #f4f3f2 0%, #ffffff 100%);
 }
 
 .travel-tour-con .tab-content .package-box:hover .grey-btn a {
@@ -973,7 +973,7 @@ span {
 /* ABOUT TRAVEL SECTION */
 
 .about-travel-con {
-    background: linear-gradient(to bottom, #f3cbb2 0%, #ffffff 100%);
+    background: linear-gradient(to bottom, #f4f3f2 0%, #ffffff 100%);
 }
 
 .about-travel-con .vector5 {
@@ -1095,7 +1095,7 @@ span {
 /* TOP DESTINATIONS SECTION */
 
 .top-destinations-con {
-    background: linear-gradient(to bottom, #f3cbb2 0%, #ffffff 100%);
+    background: linear-gradient(to bottom, #f4f3f2 0%, #ffffff 100%);
 }
 
 .heading-title h4 {
@@ -1126,7 +1126,7 @@ span {
 }
 
 .top-destinations-con .destination-box img {
-    /* background: linear-gradient(to top, #2b2945 15%, #ffffff 51%); */
+    background: linear-gradient(to top, #452929 15%, #ffffff 51%);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     display: block;
@@ -1278,7 +1278,7 @@ span {
 }
 
 .review-testimonial-con .review-box:hover {
-    background: linear-gradient(to bottom, #f3cbb2 0%, #ffffff 100%);
+    background: linear-gradient(to bottom, #f4f3f2 0%, #ffffff 100%);
 }
 
 .review-testimonial-con .review-box:hover img {
@@ -1375,7 +1375,7 @@ span {
 /* NEWS ARTICLES SECTION */
 
 .news-articles-con {
-    background: linear-gradient(to bottom, #f3cbb2 0%, #ffffff 100%);
+    background: linear-gradient(to bottom, #f4f3f2 0%, #ffffff 100%);
 }
 
 .news-articles-con .vector4 {
@@ -1453,7 +1453,7 @@ span {
 
 .footer-con {
     padding-top: 80px;
-    background: linear-gradient(to bottom, #f3cbb2 0%, #ffffff 100%);
+    background: linear-gradient(to bottom, #f4f3f2 0%, #ffffff 100%);
 }
 
 .partner-con {
@@ -1628,7 +1628,7 @@ span {
 /* SUB BANNER SECTION  */
 
 .sub-banner-outer-wrapper {
-    background: linear-gradient(to bottom, #f3cbb2 0%, #c6f6e7 100%);
+    background: linear-gradient(to bottom, #f4f3f2 0%, #ffffff 100%);
 }
 
 /* Breadcrumb */
@@ -1755,7 +1755,7 @@ span {
 /* PLAN YOUR TRIP SECTION */
 
 .plan-trip-con {
-    background: linear-gradient(to bottom, #f3cbb2 -90%, #ffffff 100%);
+    background: linear-gradient(to bottom, #f4f3f2 -90%, #ffffff 100%);
 }
 
 .plan-trip-con .heading-content h2 {
@@ -2046,7 +2046,7 @@ span {
     min-height: 100vh;
     text-align: center;
     position: relative;
-    background: linear-gradient(to bottom, #f3cbb2 0%, #f9dcdc 100%);
+    background: linear-gradient(to bottom, #f4f3f2 0%, #f9dcdc 100%);
 }
 
 .comingsoon_outer .coming-soon-con {

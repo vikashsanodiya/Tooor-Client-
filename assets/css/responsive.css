@@ -1408,6 +1408,13 @@
         width: 60px;
         height: 60px;
     }
+    #back-to-top-btn-left {
+        bottom: 30px;
+        left: 30px;
+        font-size: 16px;
+        width: 60px;
+        height: 60px;
+    }
     /* ABOUT PAGE */
     .banner-con.sub-banner-con img.vector2 {
         top: 25px;
@@ -1873,6 +1880,13 @@
     #back-to-top-btn {
         bottom: 20px;
         right: 20px;
+        font-size: 15px;
+        width: 45px;
+        height: 45px;
+    }
+    #back-to-top-btn-left {
+        bottom: 20px;
+        left: 20px;
         font-size: 15px;
         width: 45px;
         height: 45px;

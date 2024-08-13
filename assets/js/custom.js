@@ -200,24 +200,31 @@ function dynamicDropDown(listIndex) {
     }
 }
 
-// Get the button
-var backButton = document.getElementById("back-to-top-btn");
+// Get the buttons
+var backButtonRight = document.getElementById("back-to-top-btn");
+var backButtonLeft = document.getElementById("back-to-top-btn-left");
 
-// When the user scrolls down 20px from the top of the document, show the button
+// When the user scrolls down 20px from the top of the document, show the buttons
 window.onscroll = function() {
     scrollFunction();
 };
 
 function scrollFunction() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        backButton.style.display = "block";
+        backButtonRight.style.display = "block";
+        backButtonLeft.style.display = "block";
     } else {
-        backButton.style.display = "none";
+        backButtonRight.style.display = "none";
+        backButtonLeft.style.display = "none";
     }
 }
 
-// When the user clicks on the button, scroll to the top of the document
-backButton.addEventListener("click", function() {
-    document.body.scrollTop = 0; // For Safari
-    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+// Redirect when the user clicks on the left button
+backButtonLeft.addEventListener("click", function() {
+    window.location.href = "https://wa.me/7828722723?text=Hi,%20I%20am%20interested%20in%20booking.%20Can%20we%20talk%20about%20it?";
+});
+
+// Redirect when the user clicks on the right button
+backButtonRight.addEventListener("click", function() {
+    window.location.href = "booking.html";
 });

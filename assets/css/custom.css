@@ -292,8 +292,8 @@ span {
 #back-to-top-btn {
     display: none;
     position: fixed;
-    bottom: 60px;
-    right: 60px;
+    bottom: 30px;
+    right: 40px;
     z-index: 99;
     font-size: 18px;
     border: none;
@@ -301,8 +301,26 @@ span {
     color: white;
     cursor: pointer;
     border-radius: 50%;
-    width: 80px;
-    height: 80px;
+    width: 64px;
+    height: 64px;
+    -webkit-animation: spineer 2s infinite;
+    animation: spineer 2s infinite;
+}
+#back-to-top-btn-left {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    /* right: 60px; */
+    left: 40px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    background-color: var(--primary--color);
+    color: white;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
     -webkit-animation: spineer 2s infinite;
     animation: spineer 2s infinite;
 }
@@ -334,6 +352,9 @@ span {
 #back-to-top-btn:focus {
     outline: none;
 }
+#back-to-top-btn-left:focus {
+    outline: none;
+}
 
 @-webkit-keyframes spineer {
     from {
@@ -356,7 +377,15 @@ span {
 #back-to-top-btn::after {
     font-size: 18px;
     font-weight: 600;
-    content: "\f062";
+    content: "\f1b9";
+    line-height: 50px;
+    color: var(--secondary--color);
+    font-family: "Font Awesome 5 free";
+}
+#back-to-top-btn-left::after {
+    font-size: 18px;
+    font-weight: 600;
+    content: "\f4ad ";
     line-height: 50px;
     color: var(--secondary--color);
     font-family: "Font Awesome 5 free";
@@ -365,7 +394,9 @@ span {
 #back-to-top-btn:hover {
     cursor: pointer;
 }
-
+#back-to-top-btn-left:hover {
+    cursor: pointer;
+}
 /* BACK TO TOP BUTTON */
 
 /* LOADER SECTION */

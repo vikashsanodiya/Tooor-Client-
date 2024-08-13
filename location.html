@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <form name="submit-to-google-sheet">
+        <table>
+            <thead>
+                <tr>
+                    <th>Tab ID</th>
+                    <th>Location</th>
+                    <th>Title</th>
+                    <th>Image URL</th>
+                    <th>Link</th>
+                    <th>Book Link</th>
+                    <th>Visited</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><input name="tabId" type="text" placeholder="Tab ID" required></td>
+                    <td><input name="location" type="text" placeholder="Location" required></td>
+                    <td><input name="title" type="text" placeholder="Title" required></td>
+                    <td><input name="imageUrl" type="url" placeholder="Image URL" required></td>
+                    <td><input name="link" type="url" placeholder="Link" required></td>
+                    <td><input name="bookLink" type="url" placeholder="Book Link" required></td>
+                    <td><input name="visited" type="text" placeholder="Visited" required></td>
+                </tr>
+            </tbody>
+        </table>
+        <button type="submit">Send</button>
+    </form>
+    
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzM-dEqMjxNaqsZ84ofoSB9IXpbWK3oqj5eK7Ig_rsA7aSl3Yed-DOgnPh_XBOOdUVk/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+</html>

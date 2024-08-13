@@ -35,7 +35,7 @@ function importNavBar() {
                         </ul>
                         <div class="header-contact">
                             <ul class="list-unstyled mb-0">
-                                <li><a href="contact.html" class="live-chat-btn d-inline-block"><i class="fa-solid fa-map-location-dot"></i>
+                                <li><a href="https://wa.me/7828722723?text=Hi,%20I%20am%20interested%20in%20booking.%20Can%20we%20talk%20about%20it." class="live-chat-btn d-inline-block"><i class="fa-solid fa-map-location-dot"></i>
                     Book Now</a></li>
                                 <!-- list unstyled -->
                             </ul>
@@ -56,4 +56,4 @@ function importNavBar() {
   
   // To be used in any HTML page:
 //   export in any html page = <div id="lucky-navbar-container"></div>
-/* <script src="assets/component/topBar.js"></script> */
+/* <script src="assets/component/topBar.js"></script>*/

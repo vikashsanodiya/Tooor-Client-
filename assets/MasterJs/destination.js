@@ -1,57 +1,48 @@
-const jsonData = {
-    "carouselItems": [
+const data = {
+    "destinations": [
         {
-            "imageSrc": "assets/images/destination-img1.jpg",
-            "altText": "image",
-            "location": "Pune, MH",
-            "link": "destinations.html",
-            "title": "Enjoy the beauty of the Rialto Bridge"
+           
+            "image": "assets/images/destination-img1.jpg",
+            "location": "Venezia, Italy",
+            "title": "Enjoy the beauty of the Rialto Bridge",
         },
         {
-            "imageSrc": "assets/images/destination-img2.jpg",
-            "altText": "image",
-            "location": "Goa, GA",
-            "link": "destinations.html",
-            "title": "Relax at the stunning beaches of Goa"
-        },
-        {
-            "imageSrc": "assets/images/destination-img3.jpg",
-            "altText": "image",
-            "location": "Shimla, HP",
-            "link": "destinations.html",
-            "title": "Experience the tranquility of the Himalayas"
+            
+            "image": "assets/images/destination-img3.jpg",
+            "location": "Rio de Janeiro, Brazil",
+            "title": "Enjoy the beauty of the Brazil City",
         }
+        // Add more destinations as needed
     ]
 };
 
-// Function to generate carousel items
-function generateCarouselItems(data) {
-    const container = document.getElementById('lucky-carousel-container');
-    data.carouselItems.forEach(item => {
-        const itemHtml = `
+// Function to generate HTML content
+function generateDestinations(data) {
+    const carousel = document.getElementById('destinations-carousel');
+    let content = '';
+
+    data.destinations.forEach(destination => {
+        content += `
             <div class="item">
                 <div class="destination-box position-relative">
-                    <figure><img src="${item.imageSrc}" alt="${item.altText}" class="img-fluid"></figure>
+                   
+                    <figure><img src="${destination.image}" alt="image" class="img-fluid"></figure>
                     <div class="bottom-con">
-                        <span class="d-block text-uppercase">${item.location}</span>
-                        <a href="${item.link}">
-                            <h4>${item.title}</h4>
+                        <span class="d-block text-uppercase">${destination.location}</span>
+                        <a href="destinations.html">
+                            <h4>${destination.title}</h4>
                         </a>
+                        <span class="d-inline-block star-con">
+                           
+                        </span>
                     </div>
                 </div>
             </div>
         `;
-        container.innerHTML += itemHtml;
     });
+
+    carousel.innerHTML = content;
 }
 
-// Initialize Owl Carousel and generate items
-$(document).ready(function(){
-    generateCarouselItems(jsonData);
-    $('.owl-carousel').owlCarousel({
-        loop: true,
-        margin: 10,
-        nav: true,
-        items: 1
-    });
-});
+// Call the function to generate content
+generateDestinations(data);

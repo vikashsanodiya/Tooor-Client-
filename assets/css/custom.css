@@ -151,7 +151,7 @@ span {
     z-index: 1;
     /* padding: 15px 0; */
     background-color:#ffffff;
-    box-shadow: 0px 20px 50px rgba(194, 30, 30, 0.35);
+    box-shadow: 0px 20px 50px rgba(81, 74, 74, 0.35);
 }
 
 .header-con .navbar {
@@ -337,7 +337,7 @@ span {
     border-radius: 100px;
     width: 100%;
     text-decoration: none;
-    box-shadow: 0px 10px 50px rgb(255 137 0 / 20%);
+    box-shadow: 0px 10px 50px rgba(63, 61, 58, 0.2);
 }
 
 .header-contact .live-chat-btn:hover {
@@ -358,19 +358,19 @@ span {
 
 @-webkit-keyframes spineer {
     from {
-        box-shadow: 0 0 0 0 rgba(194, 30, 30, 0.99);
+        box-shadow: 0 0 0 0 rgba(67, 61, 61, 0.99);
     }
     to {
-        box-shadow: 0 0 0 45px rgba(203, 34, 34, 0.01);
+        box-shadow: 0 0 0 45px rgba(81, 76, 76, 0.01);
     }
 }
 
 @keyframes spineer {
     from {
-        box-shadow: 0 0 0 0 rgba(194, 30, 30, 0.99);
+        box-shadow: 0 0 0 0 rgba(139, 129, 129, 0.99);
     }
     to {
-        box-shadow: 0 0 0 45px rgba(203, 34, 34, 0.01);
+        box-shadow: 0 0 0 45px rgba(64, 58, 58, 0.01);
     }
 }
 
@@ -561,11 +561,11 @@ span {
 }
 
 .banner-con .green-btn a {
-    box-shadow: 10px 12px 20px rgba(194, 30, 30, 0.35);
+    box-shadow: 10px 12px 20px rgba(94, 87, 87, 0.35);
 }
 
 .banner-con .green-btn a:hover {
-    box-shadow: 10px 12px 20px rgb(255 137 0 / 35%);
+    box-shadow: 10px 12px 20px rgba(53, 51, 48, 0.35);
 }
 
 /* SEARCH BOOKING TABS CON */
@@ -681,11 +681,11 @@ span {
 }
 
 .search-booking-tab-con .tab-content input:focus {
-    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(194, 30, 30);
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(88, 79, 79);
 }
 
 .search-booking-tab-con .tab-content select:focus {
-    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(194, 30, 30);
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(79, 72, 72);
 }
 
 .search-booking-tab-con .tab-content label {
@@ -930,7 +930,7 @@ span {
     height: 60px;
     border-radius: 100%;
     line-height: 60px;
-    box-shadow: 0px 10px 50px rgba(140, 115, 115, 0.35);
+    box-shadow: 0px 10px 50px rgba(88, 81, 81, 0.35);
     font-size: 20px;
 }
 
@@ -1028,7 +1028,7 @@ span {
 .about-travel-con .about-travel-img-con img {
     border: 10px solid var(--secondary--color);
     border-radius: 10px;
-    box-shadow: 0px 10px 50px rgba(194, 30, 30, 0.3);
+    box-shadow: 0px 10px 50px rgba(79, 68, 68, 0.3);
 }
 
 .about-travel-con .about-travel-img-con .about-img2 img {
@@ -1248,7 +1248,7 @@ span {
     border-radius: 100%;
     line-height: 60px;
     /* margin-right: 29px; */
-    box-shadow: 0px 10px 50px rgba(140, 115, 115, 0.35);
+    box-shadow: 0px 10px 50px rgba(121, 103, 103, 0.35);
     font-size: 20px;
 }
 
@@ -1256,7 +1256,7 @@ span {
     background-color: var(--primary--color);
     color: var(--secondary--color);
     transition: ease-in-out 0.6s;
-    box-shadow: 0px 10px 50px rgb(194, 77, 30, 0.35);
+    box-shadow: 0px 10px 50px rgba(77, 71, 69, 0.35);
 }
 
 .top-destinations-con .owl-nav span:focus-visible,
@@ -1320,7 +1320,7 @@ span {
     width: auto;
     margin-bottom: 22px;
     border-radius: 100%;
-    box-shadow: 0 0 50px rgba(194, 30, 30, 0.3);
+    box-shadow: 0 0 50px rgba(123, 115, 115, 0.3);
     border: 3px solid var(--secondary--color);
     transition: all 0.3s ease-in-out;
 }
@@ -1369,7 +1369,7 @@ span {
     height: 60px;
     border-radius: 100%;
     line-height: 60px;
-    box-shadow: 0px 10px 50px rgba(140, 115, 115, 0.35);
+    box-shadow: 0px 10px 50px rgba(128, 124, 124, 0.35);
     font-size: 20px;
 }
 
@@ -1489,7 +1489,7 @@ span {
 
 .partner-con {
     background-color: var(--secondary--color);
-    box-shadow: 0 10px 50px rgba(194, 30, 30, 0.3);
+    box-shadow: 0 10px 50px rgba(107, 102, 102, 0.3);
     border-radius: 10px;
     padding: 50px 58px;
     margin-bottom: 76px;
@@ -1635,7 +1635,7 @@ span {
 }
 
 .footer-con .payment-icon img {
-    box-shadow: 0 10px 10px rgba(194, 30, 30, 0.1);
+    box-shadow: 0 10px 10px rgba(101, 98, 98, 0.1);
 }
 
 .banner-con .owl-carousel {
@@ -1735,7 +1735,7 @@ span {
     background-repeat: no-repeat;
     border: 10px solid #fff;
     border-radius: 20px;
-    box-shadow: 0px 10px 50px rgba(69, 41, 41, 0.3);
+    box-shadow: 0px 10px 50px rgba(67, 62, 62, 0.3);
 }
 
 .exploring-activites-con .centered {
@@ -1755,7 +1755,7 @@ span {
 .what-we-serve-con.meet-our-team-con .server-box:hover img {
     border: 5px solid #fff;
     border-radius: 100%;
-    box-shadow: 0px 10px 50px rgba(69, 41, 41, 0.3);
+    box-shadow: 0px 10px 50px rgba(80, 73, 73, 0.3);
 }
 
 .what-we-serve-con.meet-our-team-con .server-box {
@@ -1999,7 +1999,7 @@ span {
     overflow: visible;
     outline: none;
     transition: all 0.3s ease-in-out;
-    box-shadow: 0 2px 2px rgba(35, 31, 31, 0.1);
+    box-shadow: 0 2px 2px rgba(62, 56, 56, 0.1);
 }
 
 /* .talk-width-our-team-con .register-box select {
@@ -2027,7 +2027,7 @@ span {
     position: relative;
     border-radius: 5px;
     background: var(--primary--color);
-    box-shadow: 0 20px 50px 0 rgba(194, 30, 30, 0.35);
+    box-shadow: 0 20px 50px 0 rgba(71, 64, 64, 0.35);
     transition: all 0.3s ease-in-out;
     outline: none;
     border-style: none;
@@ -2048,7 +2048,7 @@ span {
 
 .talk-width-our-team-con .register-box input:focus,
 .talk-width-our-team-con .register-box textarea:focus {
-    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(194, 30, 30);
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(86, 79, 79);
     border-color: var(--primary--color);
 }
 
@@ -2112,7 +2112,7 @@ span {
     min-height: 100px;
     min-width: 350px;
     line-height: 100px;
-    box-shadow: 0 0 50px rgba(194, 30, 30, 0.2);
+    box-shadow: 0 0 50px rgba(64, 61, 61, 0.2);
 }
 
 .coming-soon-con .coming-banner-content h4 {
@@ -2182,7 +2182,7 @@ span {
 }
 
 .coming-soon-con .coming-banner-content .form-group input:focus {
-    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(194, 30, 30);
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(87, 78, 78);
     border: 1px solid var(--primary--color);
 }
 

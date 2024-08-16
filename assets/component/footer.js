@@ -1,4 +1,6 @@
-{/* <section class="float-left w-100 position-relative main-box footer-con">
+function importFooter() {
+    const footerHtml = `
+    <section class="float-left w-100 position-relative main-box footer-con">
 <img alt="vector" class="vector8 img-fluid position-absolute" src="assets/images/vector8.png">
 <div class="container">
     <div class="partner-con">
@@ -100,4 +102,19 @@
     <!-- container -->
 </div>
 <!-- footer con -->
-</section> */}
+</section>
+    
+    `;
+    const container = document.getElementById("lucky-footer-container");
+    if (container) {
+      container.innerHTML = footerHtml;
+    }
+  }
+  
+  window.addEventListener("load", function () {
+    importFooter();
+  });
+  
+  // To be used in any HTML page:
+//   export in any html page = <div id="lucky-footer-container"></div>
+/* <script src="assets/component/footer.js"></script>*/

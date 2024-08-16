@@ -27,6 +27,9 @@ function importNavBar() {
                                 
                                 
                             </li>
+                             </li><li class="nav-item">
+                                <a class="nav-link p-0" href="gallery.html">Gallery</a>
+                            </li>
                             <li class="nav-item">
                                 <a class="nav-link p-0" href="booking.html">Booking</a>
                             </li><li class="nav-item">

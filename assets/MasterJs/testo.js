@@ -1,21 +1,21 @@
 const testimonialData = {
     "testimonials": [
         {
-            "name": "Radhe Shyam",
+            "name": "Amit Sharma",
             "company": "company.com",
-            "quote": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempori ncididunt ut labore et dolore magna aliqua.",
+            "quote": "Traveling with this agency was an amazing experience. Their attention to detail and personalized service made our trip to Madhya Pradesh unforgettable.",
             "image": "assets/images/review-person1.png"
         },
         {
-            "name": "Pankaj Rajput",
+            "name": "Priya Patel",
             "company": "company.com",
-            "quote": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempori ncididunt ut labore et dolore magna aliqua.",
+            "quote": "I highly recommend this travel agency for their exceptional service and in-depth knowledge of Madhya Pradesh. Every moment was well-planned and enjoyable.",
             "image": "assets/images/review-person2.png"
         },
         {
-            "name": "Shekar Jaiswal",
+            "name": "Rajeev Kumar",
             "company": "company.com",
-            "quote": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempori ncididunt ut labore et dolore magna aliqua.",
+            "quote": "The trip was perfectly organized, with excellent support throughout. Madhya Pradesh is beautiful, and this agency made sure we experienced it to the fullest.",
             "image": "assets/images/review-person3.png"
         }
     ]
@@ -37,7 +37,7 @@ function generateTestimonials(testimonialData) {
                 </figure>
                 <p>${testimonial.quote}</p>
                 <h4 class="reviewer">${testimonial.name}</h4>
-                <span class="d-block">${testimonial.company}</span>
+             
             </div>
         `;
 

@@ -75,6 +75,7 @@ function importFooter() {
                         <li class="text-size-16 text"><span class="d-inline-block">Email:</span> <a href="mailto:info@luckytravles.com" class="mb-0 text text-decoration-nonetext-size-16">info@luckytravles.com</a></li>
                         <li class="text-size-16 text"><span class="d-inline-block">Booking:</span> <a href="tel:+917828722723" class="mb-0 text text-decoration-nonetext-size-16">+91 78287 22723</a></li>
                         <li class="text-size-16 text1"><span class="d-inline-block">Mobile:</span> <a href="tel:+919977239993" class="mb-0 text text-decoration-nonetext-size-16">+91 99772 39993</a></li>
+                        <li class="text-size-16 text1"><span class="d-inline-block">Address:</span> <a href="" class="mb-0 text text-decoration-nonetext-size-16">1/1 Desai Nagar Ujjain Madhya Pradesh 456010.</a></li>
                         <li class="social-icons">
                             <div class="circle"><a href="https://www.facebook.com/login/"><i
                 class="fa-brands fa-square-facebook"></i></a></div>

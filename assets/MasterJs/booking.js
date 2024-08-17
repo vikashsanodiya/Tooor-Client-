@@ -8,7 +8,7 @@ const tabData = {
               { "label": "Pickup Location", "type": "text", "id": "pickupLocation" },
               { "label": "Drop Location", "type": "text", "id": "dropoffLocation" },
               { "label": "Pickup Date", "type": "date", "id": "pickupDate" },
-              { "label": "Drop-off Date", "type": "date", "id": "dropoffDate" },
+           
               { 
                 "label": "Car Type", 
                 "type": "select", 
@@ -48,11 +48,6 @@ const tabData = {
           { "label": "Arrival", "type": "text", "id": "arrival" },
           { "label": "Departure Date", "type": "date", "id": "departure-date" },
           { 
-            "label": "Return Date", 
-            "type": "date", 
-            "id": "return-date" 
-          },
-          { 
             "label": "Adults", 
             "type": "select", 
             "id": "flight-adults", 
@@ -81,13 +76,13 @@ const tabData = {
           { "label": "Start Date", "type": "date", "id": "trip-start-date" },
           { "label": "End Date", "type": "date", "id": "trip-end-date" },
           { 
-            "label": "Number of Travelers", 
+            "label": "Travelers", 
             "type": "select", 
             "id": "num-travelers", 
             "options": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] 
           },
           { 
-            "label": "Travel Type", 
+            "label": "Type", 
             "type": "select", 
             "id": "travel-type", 
             "options": ["Adventure", "Cultural", "Leisure", "Business"] 
@@ -103,18 +98,13 @@ const tabData = {
           { "label": "Destination", "type": "text", "id": "cruise-destination" },
           { "label": "Departure Date", "type": "date", "id": "cruise-departure-date" },
           { 
-            "label": "Return Date", 
-            "type": "date", 
-            "id": "cruise-return-date" 
-          },
-          { 
-            "label": "Number of Passengers", 
+            "label": "Passengers", 
             "type": "select", 
             "id": "num-passengers", 
             "options": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] 
           },
           {
-            "label": "Cabin Type",
+            "label": "Type",
             "type": "select",
             "id": "cabin-type",
             "options": ["Interior", "Oceanview", "Balcony", "Suite"]
@@ -130,13 +120,13 @@ const tabData = {
           { "label": "Location", "type": "text", "id": "activity-location" },
           { "label": "Date", "type": "date", "id": "activity-date" },
           { 
-            "label": "Number of Participants", 
+            "label": "Person", 
             "type": "select", 
             "id": "num-participants", 
             "options": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] 
           },
           {
-            "label": "Activity Type",
+            "label": "Type",
             "type": "select",
             "id": "activity-type",
             "options": ["Adventure", "Cultural", "Leisure", "Sports", "Wellness"]

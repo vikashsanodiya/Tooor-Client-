@@ -1917,7 +1917,7 @@ span {
 .contact-map-con iframe {
     height: 448px;
     width: 100%;
-    filter: grayscale(1);
+    /* filter: grayscale(1); */
     border: none;
 }
 

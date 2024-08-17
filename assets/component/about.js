@@ -24,7 +24,7 @@ function importAboutUs() {
         <div class="col-lg-6">
             <div class="about-travel-content">
                 <h4 class="text-uppercase">About Lucky Tour & Travels</h4>
-                <h2>India's Best Travel Agency Since 2018.</h2>
+                <h2>India's Best Travel Agency Since 2015.</h2>
                 <p>At Lucky Tour & Travels, we are dedicated to crafting exceptional travel experiences for our clients. Since our inception, we’ve been committed to offering top-notch services, ensuring every journey is memorable.</p>
                 <ul class="list-unstyled p-0 listing">
                     <li class="position-relative"><i class="fa-solid fa-check mr-3"></i>Expertly curated trips to suit all preferences.</li>

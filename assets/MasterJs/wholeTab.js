@@ -1,6 +1,6 @@
 async function fetchDestinations() {
     try {
-        console.log('Fetching data from URL...');
+        // console.log('Fetching data from URL...');
         const response = await fetch('https://script.google.com/macros/s/AKfycbwBbqBbSOEElls8tXGS4vZTHQyz0h8EBB_XJ9zpD1MjD2wtp5bwKYtpL34RgNkWZops/exec');
 
         // Check if the response is OK
@@ -10,7 +10,7 @@ async function fetchDestinations() {
 
         // Parse the response as JSON
         const destinations = await response.json();
-        console.log('Destinations:', destinations);
+        // console.log('Destinations:', destinations);
         return destinations;
     } catch (error) {
         console.error('Error fetching data:', error);
@@ -20,13 +20,13 @@ async function fetchDestinations() {
 
 async function createTabs() {
     const destinations = await fetchDestinations();
-    console.log('Destinations:', destinations);
+    // console.log('Destinations:', destinations);
 
     const tabsContainer = document.getElementById('myTab1');
     const tabContentContainer = document.getElementById('myTabContent1');
 
     if (destinations.length === 0) {
-        console.log('No destinations found.');
+        // console.log('No destinations found.');
         return;
     }
 
@@ -47,7 +47,7 @@ async function createTabs() {
         tabButton.setAttribute('aria-selected', index === 0);
         tabButton.textContent = dest.label;
         tabButton.addEventListener('click', () => {
-            console.log(`Tab clicked: ${dest.label}`);
+            // console.log(`Tab clicked: ${dest.label}`);
             document.querySelectorAll('.nav-link').forEach(t => t.classList.remove('active'));
             document.querySelectorAll('.tab-pane').forEach(c => c.classList.remove('show', 'active'));
             tabButton.classList.add('active');
@@ -67,7 +67,7 @@ async function createTabs() {
         carousel.className = 'owl-carousel';
 
         dest.carouselItems.forEach(item => {
-            console.log('Carousel Item:', item);
+            // console.log('Carousel Item:', item);
             const itemDiv = document.createElement('div');
             itemDiv.className = 'item';
 

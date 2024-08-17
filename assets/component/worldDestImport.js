@@ -5,7 +5,7 @@ function importWorldDes() {
 <div class="container top-destination-con1 wow bounceInUp" data-wow-duration="2s">
     <div class="heading-title text-center">
         <h4 class="text-uppercase">Top Destinations</h4>
-        <h2 class="">Explore the Beauty of <br> The World</h2>
+        <h2 class="">Explore the Beauty of <br> Madhya Pradesh</h2>
     </div>
     <div id="destinations-carousel" class="owl-carousel"></div>
 </div>

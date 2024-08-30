@@ -476,7 +476,7 @@ span {
 /* BANNER SECTION */
 
 .banner-con {
-    padding-top: 166px;
+    padding-top: 30px;
 }
 
 .banner-con h4 {
@@ -535,7 +535,7 @@ span {
 }
 
 .banner-con .owl-dots {
-    margin-top: 50px;
+    margin-top: 5px;
     text-align: center;
 }
 
